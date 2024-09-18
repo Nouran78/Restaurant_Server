@@ -18,7 +18,7 @@ class BookingsTableSeeder extends Seeder
         DB::table('bookings')->insert([
             [
                 'user_id' => 1,
-                'name' => 'John Doe',
+                'username' => 'John Doe',
                 'phone' => '555-1234',
                 'date_time' => Carbon::createFromFormat('m/d/Y h:i A', '09/28/2024 12:00 PM'),
                 'total_person' => 4,
